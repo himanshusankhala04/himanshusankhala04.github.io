@@ -196,12 +196,10 @@
         padding:15px;
         
     }
-    .site-main .skills-area .skills{
-        padding-left: -200px;
+
+   
         
-        text-align: center;
-        
-    }
+
 }
 
 @media (min-width: 1000px) {
