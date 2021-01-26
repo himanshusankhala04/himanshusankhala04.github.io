@@ -1,0 +1,531 @@
+
+
+/*import fonts*/
+@import url('./fonts.css');
+
+/* css var*/
+@import url('./partials/_variables.css');
+
+/* global*/
+@import url('./partials/_global.css');
+
+@media (max-width: 950px) {
+    .site-main .site-banner .site-title{
+        padding-left: 0;
+    }
+    
+    .site-main .site-banner .site-title h3{
+        padding-top: 100px;
+        font-weight: 500;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .site-main .site-banner .site-title h1{
+        text-align: center;
+    }
+    
+    .site-main .site-banner .site-title h4{
+        font-size: 1.5rem;
+        text-align: center;
+        color: var(--primary-color);    
+    }
+    .site-main .site-banner .site-button a{
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .site-main .about-area .about-image{
+        text-align: center;
+        padding-top: 5rem;
+    }
+    
+    
+    
+
+
+    .site-main#blur.active{
+        filter: blur(20px);
+        pointer-events: none;
+        user-select: none;
+        
+    }
+
+    .button2{
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .close1{
+        
+        text-align: right;
+        margin-top: -15px;
+        margin-right: -20px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        
+    }
+
+    .card-content{
+        
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width:90%;
+        height: 60%;
+        padding: 50px;
+        box-shadow: 0 5px 30px rgba(0,0,0, 0.30);
+        background: white;
+        overflow-y:scroll;
+        
+    }
+    
+    .card-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    #sudoku-popup{
+        
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    #sudoku-popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+
+    #hillC-popup{
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    #hillC-popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    #personalW-popup{
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    #personalW-popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    #frontEnd-popup{
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    #frontEnd-popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+
+    .card-content p{
+        color: var(--text-color);
+        font: normal ;
+        font-weight: 500;
+        font-size: 70%;
+    }
+    
+    .card-content h1{
+        font-size: 150%;
+    }
+
+    .image1{
+        margin: auto;
+        max-width: 30%;
+    }
+    
+    /*about*/
+    .site-main .about-area .about-title h2 > span{
+        text-align: center;
+        
+    }
+    
+    /*brand*/
+    .site-main .brand-area h1{
+        
+        text-align: center;
+    }
+    
+
+}
+@media (max-width: 400px){
+    .site-main .about-area .about-title h2 > span{
+        letter-spacing: 2px;
+    }
+    .site-main  .skills-area .skills{
+        padding-right: 30px;
+    }
+    .image1{
+        margin: auto;
+        max-width: 50%;
+    }
+    .card-content p{
+        margin: auto;
+        color: var(--text-color);
+        font: normal ;
+        font-weight: 500;
+        font-size: 68%;
+        line-height: 1.4;
+    }
+    .card-content{
+        
+        padding:15px;
+        
+    }
+}
+
+@media (min-width: 1000px) {
+    .site-main#blur.active{
+        filter: blur(20px);
+        pointer-events: none;
+        user-select: none;
+        
+    }
+
+    
+    .button2{
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .close1{
+        
+        text-align: right;
+        margin-top: -40px;
+        margin-right: -50px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        
+    }
+    .card-content{
+        
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width:50%;
+        padding: 50px;
+        box-shadow: 0 5px 30px rgba(0,0,0, 0.30);
+        background: white;
+        overflow-y:scroll;
+        
+    }
+    
+
+    .card-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    #sudoku-popup{
+        
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    #sudoku-popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+
+    #hillC-popup{
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    #hillC-popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    #personalW-popup{
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    #personalW-popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    #frontEnd-popup{
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    #frontEnd-popup.active{
+        top: 50%;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .card-content h1{
+        font-size: 250%;
+    }
+
+    .card-content p{
+        color: var(--text-color);
+        font: normal ;
+        font-weight: 500;
+        font-size: 100%;
+    }
+
+    .image1{
+        margin: auto;
+        max-width: 300px;
+    }
+
+    /*banner*/
+    .site-main .site-banner .site-title{
+        padding-left: 8rem;
+    }
+
+    /*about*/
+    .site-main .about-area{
+        padding:  5rem 5rem;
+    }
+
+    /*brand*/
+    .site-main .brand-area h1{
+        padding: 0 14rem;
+        
+        text-align: center;
+    }
+    
+    .navbar{
+        height: 7%;
+    }
+}
+
+
+
+    
+/*start nav*/
+
+.navbar{
+    background-color: rgb(240, 225, 255);
+    position: fixed;
+    width: 100%;   
+       
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+   padding: 0rem;
+}
+
+nav.black{
+    background-color: rgb(230, 215, 243);
+   
+}
+
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px;
+    text-transform: uppercase;
+    
+    padding: 1.7rem;
+    color: var(--title-color);
+    font-weight: 500;
+    text-align: center;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: #854fee;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: #854fee;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+
+}
+
+/*end nav*/
+
+/*banner*/
+.site-main .site-banner{
+    background-color: #d298ea4d;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 125%;
+}
+
+
+
+.site-main .site-banner .site-title h1{
+    font-size:220%;
+    letter-spacing: 1;
+    
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 130%;
+    color: var(--primary-color);    
+}
+
+
+
+/*end banner*/
+
+/*about us*/
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: noramal;
+    font-weight: bold;
+    font-size: 120%;
+    letter-spacing: 10px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/*end about us*/
+
+/*brand area*/
+
+
+.site-main .brand-area h1{
+    font-size: 195%;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.site-main .brand-area .card-text{
+    font-size: 17px;
+}
+
+.site-main > .brand-area .brands{
+    background: #dee0fa;
+    
+    width: 100%;
+    height: 70%;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    position: relative;
+}
+
+.site-main > .brand-area .brands:hover{
+    box-shadow: var(--box-shadow);
+    background: rgb(240, 231, 250);    
+}
+
+
+
+/*end brand area*/
+
+/*Skills area*/
+
+
+
+
+
+
+.site-main .skills-area h1{
+    padding-top: 5rem;
+    font-size: 195%;
+}
+.site-main .skills-area .card-text{
+    font-size: 17px;
+}
+
+.site-main > .skills-area .skills{
+    background: rgb(230, 215, 243);
+    padding: 2rem 0;
+    width: 100%;
+    height: 70%;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    position: relative;
+}
+
+.site-main > .skills-area .skills:hover{
+    box-shadow: var(--box-shadow);
+    background: rgb(240, 231, 250);    
+}
+
+
+
+/*end skills*/
+
+
+/*footer area*/
+
+footer.footer-area{
+    background: url("../img/footerbackground.png") no-repeat;
+}
+
+footer.footer-area h5{
+    font: normal 500 23px/30px;
+    padding-top: 1rem;
+}
+
+footer.footer-area a > i{
+    font-size: 30px;
+    padding: 2rem;
+    color: rgb(82, 78, 78);
+
+}
+
+footer.footer-area a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/*end footer area*/
+
+
+
+
