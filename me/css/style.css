@@ -198,6 +198,9 @@
         padding:15px;
         
     }
+    .site-main .skill-area .skills {
+        margin: auto;
+    }
 }
 
 @media (min-width: 1000px) {
