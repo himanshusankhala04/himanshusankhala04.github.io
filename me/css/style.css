@@ -338,6 +338,7 @@
 }
 
 
+
     
 /*start nav*/
 
@@ -450,7 +451,7 @@ nav.black{
     padding: 1rem 0;
     width: 97%;
     height: 70%;
-    margin: 5rem -.1rem;
+    margin: 5rem .6rem;
     transition: box-shadow .7s ease;
     position: relative;
 }
@@ -484,7 +485,7 @@ nav.black{
     padding: 1rem 0;
     width: 95%;
     height: 70%;
-    margin: 5rem 0rem;
+    margin: 5rem .3rem;
     transition: box-shadow .7s ease;
     position: relative;
 }
