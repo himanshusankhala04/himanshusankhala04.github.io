@@ -37,6 +37,17 @@
       background: url(.img/loader-64x/Preloader_3.gif) center no-repeat #fff;
     }
     </style>
+    <!--added-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+      //paste this code under head tag or in a seperate js file.
+      // Wait for window load
+      $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+      });
+    </script>
 </head> 
 <body>
     
@@ -525,17 +536,7 @@
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
-    <!--added-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-    <script>
-      //paste this code under head tag or in a seperate js file.
-      // Wait for window load
-      $(window).load(function() {
-        // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow");;
-      });
-    </script>
+    
 
 
     <script>
