@@ -19,6 +19,24 @@
 
     <!--custom CSS-->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--added-->
+    <style>
+    /* Paste this css to your style sheet file or under head tag */
+    /* This only works with JavaScript, 
+    if it's not present, don't show loader */
+    .no-js #loader { display: none;  }
+    .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+    .se-pre-con {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url(.img/loader-64x/Preloader_3.gif) center no-repeat #fff;
+    }
+    </style>
 </head> 
 <body>
     
@@ -105,12 +123,12 @@
                 </h2>
                 <div id="dynam" class="paragraph py-4 w-75">
                   <p class="para">
-                      &nbsp;&nbsp;&nbsp;&nbsp;I grew up in Aurangabad town in Maharashtra, India. Started my career as Computer Science Engineer undergrad at MIT, Aurangabad.
+                      &nbsp;&nbsp;I grew up in Aurangabad town in Maharashtra, India. Started my career as Computer Science Engineer undergrad at MIT, Aurangabad.
                       I have also completed my Diploma program in computer engineering. 
                       With the studies I am also exploring field as much as I can by working on projects. My goal is to build product as perfect it can be.
                   </p>
                   <p class="para">
-                      &nbsp;&nbsp;&nbsp;&nbsp;I have a keen interest in Web development and coding in Python language. I enjoy developing and learning new and old tech. I have worked on backend as well as on front endpart of the projects. I have also learned about AWS cloud platform for setting up server.
+                      &nbsp;&nbsp;I have a keen interest in Web development and coding in Python language. I enjoy developing and learning new and old tech. I have worked on backend as well as on front endpart of the projects. I have also learned about AWS cloud platform for setting up server.
 
                   </p>
 
@@ -135,7 +153,7 @@
               </div>
               <div class="container skills-list">
                 <div class="row">
-                  <div class="col-lg-3 col-md-6 com-sm-12">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="skills">
                       <div class="skills-img text-center py-4">
                         <img src="./img/python.png" alt="skills-1" class="img-fluid" height="57" width="50">
@@ -151,7 +169,7 @@
                     
                   </div>
 
-                  <div class="col-lg-3 col-md-6 com-sm-12">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="skills">
                       <div class="skills-img text-center py-4">
                         <img src="./img/java.png" alt="skills-2" class="img-fluid" height="37" width="40">
@@ -168,7 +186,7 @@
                   </div>
 
 
-                  <div class="col-lg-3 col-md-6 com-sm-12">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="skills">
                       <div class="skills-img text-center py-4">
                         <img src="./img/htmlncss.png" alt="skills-3" class="img-fluid" height="65" width="65">
@@ -186,7 +204,7 @@
                   </div>
 
 
-                  <div class="col-lg-3 col-md-6 com-sm-12">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="skills">
                       <div class="skills-img text-center py-4">
                         <img src="./img/bootstrap.png" alt="skills-4" class="img-fluid" height="60" width="60">
@@ -223,7 +241,7 @@
                 <h1 class="text-uppercase title-text">Projects</h1>
                 <div class="row">
 
-                  <div class="col-lg-6 col-md-6 com-sm-12" >
+                  <div class="col-lg-6 col-md-6 col-sm-12" >
                     <div class="brands"  >
                       <div class="brand-img text-center py-4">
                         <img src="./img/sudoku.png" alt="project-1" class="img-fluid" width="100">
@@ -240,7 +258,7 @@
                   
 
                   
-                  <div class="col-lg-6 col-md-6 com-sm-12">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="brands">
                       <div class="brand-img text-center py-4">
                         <img src="./img/encryption-decryption-icon.png" alt="project-2" class="img-fluid" width="100">
@@ -257,7 +275,7 @@
                   </div>
 
                   
-                  <div class="col-lg-6 col-md-6 com-sm-12">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="brands">
                       <div class="brand-img text-center py-4">
                         <img src="./img/personal-web.png" alt="project-3" class="img-fluid" width="100">
@@ -272,7 +290,7 @@
                   </div>
 
                   
-                  <div class="col-lg-6 col-md-6 com-sm-12">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="brands">
                       <div class="brand-img text-center py-4">
                         <img src="./img/bootstrap.png" alt="project-4" class="img-fluid" width="100">
@@ -296,6 +314,108 @@
         </section>
         <!--brand area end-->
 
+        <!--blog area-->
+        <section id="blog-area" class="blog-area">
+          <div class="container">
+            
+            <div class="row">
+
+              <div class="col-12">
+
+                <div class="blog-title">
+                  <h1>Blog's</h1>
+                </div>
+
+              </div>
+
+            </div>
+           
+            <div class="row">
+              
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+
+                  <div class="latest-activity">
+                    <div class="activity-img text-center">
+                      <img src="./img/MS-store.png" alt="apps" class="img-fluid" width="200px">
+                    </div>
+                    
+                    
+                    <div class="activity-content card-body ">
+                      <h4 class="card-title text-uppercase">10 Best Windows Apps to Use in 2021 <span class="badge badge-pill badge-danger">new</span></h4>
+                      
+                      <div id="share-links" class="share-links">
+                        <!-- Twitter (url, text, @mention) -->
+                        <a href="https://twitter.com/share?url=https://himanshusankhala04.github.io/me/&via=himanshu10599" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <!-- Facebook (url) -->
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://himanshusankhala04.github.io/me/" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <!-- LinkedIn (url, title, summary, source url) -->
+                        <a href="https://www.linkedin.com/shareArticle?url=https://himanshusankhala04.github.io/me/&title=Blog" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        
+                    
+                      </div>
+
+                      <p>Windows users know that, no matter how many new features Microsoft adds to its OS, there are always apps that will boost your use.</p>
+                                       
+                      <br>
+                      <a href="https://thechworldhub.blogspot.com/2021/01/10-best-windows-10-apps-to-use-in-2021.html">Read More</a>
+                    </div>
+                  </div>
+
+                </div>
+
+                            
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="latest-activity">
+                    <div class="activity-img text-center">
+                      <img src="./img/github_blog.png" alt="" class="img-fluid" width="200px">
+
+                    </div>
+                    <div class="activity-content card-body">
+                      <h4 class="card-title text-uppercase">Steps for setting up your project on git hub</h4>
+                    <div id="share-links" class="share-links">
+                        <!-- Twitter (url, text, @mention) -->
+                        <a href="https://twitter.com/share?url=https://himanshusankhala04.github.io/me/&via=himanshu10599" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <!-- Facebook (url) -->
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://himanshusankhala04.github.io/me/" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <!-- LinkedIn (url, title, summary, source url) -->
+                        <a href="https://www.linkedin.com/shareArticle?url=https://himanshusankhala04.github.io/me/&title=Blog" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        
+                        
+                    
+                      </div>
+
+                      <p>This blog will be helpful for the user who have developed their project and want to upload on GitHub and they don't know much about GitHub.</p>
+                    
+                      <br>
+                      <a href="https://thechworldhub.blogspot.com/2020/06/using-github.html">Read More</a>
+                    </div>
+                </div>
+
+
+              </div>
+
+
+          </div>
+        </section>
+        <!--blog area end-->
+
 
     </main>
     <!--end main area-->
@@ -313,7 +433,7 @@
               <a href="https://www.instagram.com/himanshu.sankhala04/" target="_blank"><i class="fab fa-instagram"></i></a>
               <a href="https://www.youtube.com/channel/UCCvHhgkDZJ7JQc2lVXZ_Fkg" target="_blank"><i class="fab fa-youtube"></i></a>
               <a href="https://twitter.com/himanshu10599" target="_blank"><i class="fab fa-twitter"></i></a>
-
+              
             </div>
             <div class="copyrights text-center">
               <p class="para">
@@ -404,6 +524,20 @@
     <!----- Bootstrap JS file ------>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!--added-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+      //paste this code under head tag or in a seperate js file.
+      // Wait for window load
+      $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+      });
+    </script>
+
+
     <script>
       $(window).scroll(function(){
         if($(window).scrollTop()){
@@ -462,7 +596,10 @@
         var popup = document.getElementById(element);  
         popup.classList.toggle('active');
       }
+
+      
     </script>
+
 
 </body>
 </html>
