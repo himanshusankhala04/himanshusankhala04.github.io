@@ -430,6 +430,39 @@ nav.black{
 
 /*end about us*/
 
+/*Skills area*/
+
+
+
+
+
+.site-main .skills-area h1{
+    padding-top: 5rem;
+    font-size: 195%;
+}
+.site-main .skills-area .card-text{
+    font-size: 17px;
+}
+
+.site-main > .skills-area .skills{
+    background: rgb(230, 215, 243);
+    padding: 1rem 0;
+    width: 95%;
+    height: 70%;
+    margin: 5rem .45rem;
+    transition: box-shadow .7s ease;
+    position: relative;
+}
+
+.site-main > .skills-area .skills:hover{
+    box-shadow: var(--box-shadow);
+    background: rgb(240, 231, 250);    
+}
+
+
+
+/*end skills*/
+
 /*brand area*/
 
 
@@ -462,39 +495,51 @@ nav.black{
 
 /*end brand area*/
 
-/*Skills area*/
+/*blog area*/
 
-
-
-
-
-
-.site-main .skills-area h1{
-    padding-top: 5rem;
-    font-size: 195%;
+.site-main .blog-area{
+    margin: auto;
 }
-.site-main .skills-area .card-text{
+
+.site-main .blog-area h1{
+    font-size: 195%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.site-main .blog-area .card-text{
     font-size: 17px;
 }
 
-.site-main > .skills-area .skills{
-    background: rgb(230, 215, 243);
+.site-main > .blog-area .latest-activity{
+    background: #dee0fa;
     padding: 1rem 0;
-    width: 95%;
+    width: 97%;
     height: 70%;
-    margin: 5rem .45rem;
+    margin: 7rem .25rem;
     transition: box-shadow .7s ease;
     position: relative;
+    overflow: auto;
 }
 
-.site-main > .skills-area .skills:hover{
+.site-main > .blog-area .latest-activity:hover{
     box-shadow: var(--box-shadow);
     background: rgb(240, 231, 250);    
 }
 
+.site-main .blog-area .latest-activity .activity-content .share-links{
+    
+    margin-top: -12;
+    font-size: 25px;
+    
+}
+.site-main .blog-area .latest-activity .activity-content .share-links a{
+    padding-left: 1rem;
+}
 
 
-/*end skills*/
+/*end blog area*/
 
 
 /*footer area*/
