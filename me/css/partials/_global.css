@@ -61,7 +61,8 @@
 }
 
 p.para{
-    color: var(--text-color);
+    font-style: Arial, Helvetica, sans-serif;
+    color: rgb(92, 91, 91);
     font: normal ;
     font-weight: 500;
     font-size: 90%;
